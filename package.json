@@ -1,0 +1,22 @@
+{
+  "name": "api-rest",
+  "version": "0.0.1",
+  "description": "api",
+  "main": "index.js",
+  "author": "jp",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pg": "^8.16.2",
+    "pg-format": "^1.0.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "standard": "^17.1.2"
+  }
+}
